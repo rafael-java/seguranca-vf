@@ -2,6 +2,10 @@ import hashlib
 import random
 import time
 
+# 3 - Implemente a construção de blocos de uma blockchain. Simule a evolução de uma blockchain de 10.000 blocos, onde cada bloco possui até 20 transações geradas aleatoriamente. Em seguida, tente fraudar alguma transação do bloco 35, mantendo toda a cadeia íntegra. Ao fim, responda as seguintes perguntas:
+# 3.1 - Quanto tempo leva, em média, para a inserir um novo bloco na cadeia?
+# 3.2 - Quanto tempo leva, em média, para tornar a blockchain válida após a alteração -indevida- do bloco 35?
+# 3.3 - Quanto tempo leva, em média, para tornar a blockchain válida após a alteração -indevida- do N-ésimo bloco?
 class Block:
 
     def __init__(self, data: str, previous_hash: bytes) -> None:
